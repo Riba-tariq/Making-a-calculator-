@@ -1,0 +1,65 @@
+*{
+    margin: 1px;
+ padding:1px ;
+ box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+body{
+    height: 100%;
+    width: 100vh;
+   display:flex;
+  justify-content: center;
+    align-items: center;
+     background:lightblue;
+    background-size: cover;
+}
+.calculator{
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 16px;
+    box-shadow: 0px 3px  15px rgba(0, 0, 0 ,0.8) ;
+   background: rgb(0,0, 0, 0.5);
+}
+#inputbox{
+    width: 320px;
+    padding: 24px;
+    margin: 10px;
+    background: rgb(255,255, 255, 0.3);
+    box-shadow: inset black;
+    text-align: right;
+    font-size: 65px;
+    color:white;
+border: 2px solid gray;
+border-radius: 16px;
+text-shadow: 0px 1px 5px white;
+}
+#inputbox ::placeholder{
+color:white;
+}
+button{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    color:white;
+    background: rgba(0, 0, 0 ,0.7);
+    font-size: 24px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 25px;
+    text-shadow: 0px 1px 5px rgba(0, 0, 0 ,0.2);
+    box-shadow: -1px  2px 110px rgba(0, 0, 0 ,0.5);
+}
+.AC, .DEL{
+font-size: 20px;
+}
+button:hover{
+    color: aliceblue;
+    background: orange;
+}
+.equalbtn{
+    background: orange;
+}
+.opreator{
+    background: orange;
+}
